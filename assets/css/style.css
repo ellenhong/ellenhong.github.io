@@ -259,7 +259,12 @@ body {
 
 #about-text a {
 	text-decoration: none;
-	color: lightgray;
+	color: #78AFD0;
+	transition: 0.3s;
+}
+
+#about-text a:hover {
+	color: darkgray;
 }
 
 /*-------------------------- CONTACT --------------------------*/
@@ -331,6 +336,8 @@ body {
 	color: #78AFD0;
 	opacity: 0.8;
 }
+
+/*-------------------------- MEDIA QUERIES --------------------------*/
 
 @media (max-width: 1220px) {
 	.proj-title {
