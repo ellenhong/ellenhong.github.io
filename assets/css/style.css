@@ -246,13 +246,22 @@ body {
 	position: relative;
 }
 
+#hi {
+	font-size: 1.8em;
+}
+
+#bullets {
+	margin: 30px;
+	font-weight: 300;
+}
+
 #about-text {
 	position: absolute;
 	width: 50vw;
 	line-height: 1.75em;
 	left: 50%;
 	transform: translateX(-50%);
-	top: 180px;
+	top: 125px;
 	font-size: 1.35em;
 	color: #565656;
 }
@@ -261,6 +270,7 @@ body {
 	text-decoration: none;
 	color: #78AFD0;
 	transition: 0.3s;
+	font-weight: 400;
 }
 
 #about-text a:hover {
