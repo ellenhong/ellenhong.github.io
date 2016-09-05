@@ -172,18 +172,10 @@ body {
 	font-size: 2.5em;
 	font-weight: 600;
 	position: absolute;
-	right: -8px;
-	bottom: -12px;
-}
-
-#daily-title1 {
-	color: #565656;
-}
-
-#daily-title2 {
-	color: white;
 	right: -3px;
 	bottom: -9px;
+	text-shadow: 3px 3px 0px rgba(86, 86, 86, 1);
+	color: white;
 }
 
 #proj-line {
