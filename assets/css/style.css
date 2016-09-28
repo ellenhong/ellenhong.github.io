@@ -400,16 +400,81 @@ body {
 
 @media (max-width: 960px) {
 	#proj-container {
-		width: 85vw;
+		width: 80vw;
 	}
+
 	.proj-descrip {
 		right: 45px;
+	}
+
+	.project {
+		margin: 50px 0px;
+	}
+
+	.proj-snippet {
+		max-width: 80%;
+		margin: 10px auto;
+	}
+
+	.proj-lang {
+		max-width: 80%;
+	}
+
+	.proj-view {
+		margin: 20px auto;
+	}
+
+	.proj-title {
+		font-size: 1.65em;
+	}
+
+	.box {
+		width: 90px;
+		height: 25px;
+	}
+
+	#poke-box {
+		width: 170px;
+	}
+
+	#guide-box {
+		width: 200px;
+	}
+
+	#about-text {
+		width: 70vw;
+	}
+}
+
+@media (max-width: 900px) {
+	#contact-text {
+		width: 75vw;
 	}
 }
 
 @media (max-width: 740px) {
 	.name {
 		font-size: 5em;
+	}
+	.section-header {
+		font-size: 2.25em;
+	}
+
+	.proj-descrip {
+		right: 30px;
+	}
+
+	.proj-snippet {
+		max-width: 100%;
+	}
+
+	.proj-lang {
+		max-width: 100%;
+	}
+
+	.proj-view {
+		margin: 10px auto;
+		padding: 7px;
 	}
 }
 
@@ -422,12 +487,39 @@ body {
 		font-size: 1.25em;
 	}
 
+	#about-text {
+		font-size: 1.2em;
+	}
+
+	#contact-text {
+		font-size: 1.2em;
+	}
+}
+
+@media (max-width: 570px) {
+	#proj-container {
+		width: 90vw;
+	}
+
+	.proj-descrip {
+		width: 45vw;
+	}
+
+
 }
 
 @media (max-width: 460px) {
 	.name {
 		font-size: 2.5em;
 	}
+	#about-text {
+		font-size: 1.1em;
+	}
+
+	.project {
+		height: 25vw;
+	}
+
 }
 
 @media (max-width: 350px) {
@@ -436,8 +528,13 @@ body {
 		left: 20px;
 	}
 
-	#rect1 {
-		top: 50px;
+	#about-text {
+		font-size: 1em;
 	}
+
+	.project {
+		height: 40vw;
+	}
+	
 }
 
