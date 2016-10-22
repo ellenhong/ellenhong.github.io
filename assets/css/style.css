@@ -32,7 +32,7 @@ body {
 .name {
 	font-size: 6.5em;
 	font-weight: 600;
-	color: #66baec;
+	color: #4ea7dc;
 	line-height: 0.95em;
 }
 
@@ -115,7 +115,7 @@ body {
 .section-header {
 	font-size: 3em;
 	font-weight: 700;
-	color: #66baec;
+	color: #4ea7dc;
 	float: right;
 	margin-right: 60px;
 	margin-top: 35px;
@@ -159,7 +159,7 @@ body {
 	position: absolute;
 	width: inherit;
 	height: inherit;
-	background: #66baec;
+	background: #4ea7dc;
 }
 
 #poke-box {
@@ -273,7 +273,7 @@ body {
 
 #about-text a {
 	text-decoration: none;
-	color: #66baec;
+	color: #4ea7dc;
 	transition: 0.3s;
 	font-weight: 400;
 }
@@ -337,7 +337,7 @@ body {
 
 #contact-text a {
 	text-decoration: none;
-	color: #66baec;
+	color: #4ea7dc;
 	opacity: 0.8;
 	transition: 0.3s;
 }
@@ -348,7 +348,7 @@ body {
 
 .emph {
 	font-weight: 600;
-	color: #66baec;
+	color: #4ea7dc;
 	opacity: 0.8;
 }
 
